@@ -1,0 +1,320 @@
+body{
+    background-color: #1f1f1f;
+    font-family: Arial;
+
+
+.tarjeta{
+
+    background-color: #2a2a2a;
+
+    width: 900px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 30px;
+
+    margin: 100px auto;
+
+    border-radius: 15px;
+}
+
+.tarjeta img{
+
+    width: 180px;
+
+    height: 180px;
+
+    object-fit: cover;
+
+    border: 4px solid gold;
+
+    margin-right: 40px;
+}
+
+.texto{
+    color: white;
+}
+
+button{
+
+    background-color: gold;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+}
+
+#tabla1{
+    color: white;
+}
+
+td{
+    padding: 20px;
+}
+
+.tarjeta2{
+
+    width: 900px;
+
+    height: 350px;
+
+    margin: 50px auto;
+
+    border-radius: 20px;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("imagenes/fondo.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    color: white;
+
+    padding-left: 50px;
+
+}
+
+.titulo{
+
+    color: white;
+
+    text-align: center;
+
+    margin-top: 80px;
+
+    font-size: 40px;
+}
+
+
+.portfolio{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin-top: 50px;
+
+    flex-wrap: wrap;
+}
+
+
+.proyecto{
+
+    width: 250px;
+
+    background-color: #2a2a2a;
+
+    color: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+
+.proyecto:hover{
+
+    transform: scale(1.05);
+}
+
+
+.proyecto h2{
+
+    color: gold;
+}
+
+
+button{
+
+    margin-top: 20px;
+
+    background-color: gold;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.titulo2{
+
+    color: white;
+
+    text-align: center;
+
+    margin-top: 80px;
+
+    font-size: 40px;
+}
+
+
+.experiencia{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+
+    margin-top: 50px;
+}
+
+
+.caja{
+
+    width: 300px;
+
+    background-color: #2a2a2a;
+
+    color: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    transition: 0.3s;
+}
+
+
+.caja:hover{
+
+    transform: scale(1.05);
+}
+
+
+.caja h2{
+
+    color: gold;
+}
+
+
+.caja h4{
+
+    color: #bdbdbd;
+}
+
+.titulo-contacto{
+
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+
+    margin-top: 80px;
+
+    font-size: 40px;
+}
+
+
+.contacto{
+
+    width: 900px;
+
+    background-color: gold;
+
+    margin: 50px auto;
+
+    padding: 50px;
+
+    border-radius: 20px;
+}
+
+
+form{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+    width: 400px;
+
+    margin: auto;
+}
+
+
+label{
+
+    font-weight: bold;
+
+    color: #2a2a2a;
+}
+
+
+input{
+
+    height: 35px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding-left: 10px;
+}
+
+
+textarea{
+
+    height: 120px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding: 10px;
+
+    resize: none;
+}
+
+
+button{
+
+    width: 150px;
+
+    height: 40px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: #2a2a2a;
+
+    color: white;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+}
+
+
+button:hover{
+
+    transform: scale(1.05);
+
+    transition: 0.3s;
+}
+
+
+
+}
